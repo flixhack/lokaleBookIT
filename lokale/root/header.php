@@ -1,4 +1,5 @@
 <?php
+//Link til siden: https://felix.jespermathiassen.dk/Lokaler
 session_start(); //Starts session
 
 $servername = "db"; //Sets database info to variables for the sql connect
