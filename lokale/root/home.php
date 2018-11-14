@@ -7,13 +7,20 @@
     <title></title>
   </head>
   <body>
-    <section class="section">
-      <div class="container">
-        <h1 class="title">Lokale Booker</h1>
-        <h2 class="subtitle">
-          Find <strong>dit</strong> frie lokale på skolen.
-        </h2>
+    <div class="tile is-ancestor">
+      <div class="tile is-4 is-vertical is-parent">
+        <div class="tile is-child box">
+          <p class="title">Lokale Booker</p>
+        </div>
+        <div class="tile is-child box">
+          <p class="subtitle">Find <strong>dit</strong> frie lokale på skolen</p>
+        </div>
       </div>
-    </section>
+      <div class="tile is-parent">
+        <div class="tile is-child box">
+          <p class="title">Registre & Login</p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
