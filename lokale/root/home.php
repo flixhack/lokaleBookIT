@@ -11,6 +11,8 @@ include 'stylesheet.php';
     <title></title>
   </head>
   <body>
+<script type="text/javascript" src="logo.png">
 
+</script>
   </body>
 </html>
