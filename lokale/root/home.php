@@ -11,7 +11,8 @@ include 'stylesheet.php';
     <title></title>
   </head>
   <body>
-<script type="text/javascript" src="logo.png">
+    <img src="logo.png" alt="Title" style="width:616px;height:88px;">
+
 
 </script>
   </body>
