@@ -52,7 +52,12 @@ include 'stylesheet.php';
 
   </head>
   <body>
+<<<<<<< HEAD
 <img src="logo.png" alt="Title" style="width:660px;height:88px;">
+=======
+    <img src="logo.png" alt="Title" style="width:616px;height:88px;">
+
+>>>>>>> b374565b7258826376a35b208a3beffd399331ec
 
 </script>
 <table style="width:100%">
