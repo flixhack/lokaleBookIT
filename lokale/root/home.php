@@ -8,7 +8,7 @@ include 'stylesheet.php';
 <html lang="en" dir="ltr">
   <head>
     <!-- <link href="style2.css" rel="stylesheet" type="text/css"> -->
-    <title></title>
+    <title>LokaleBooking - Aarhus Gymnasium</title>
   </head>
   <body>
 <script type="text/javascript" src="logo.png">
