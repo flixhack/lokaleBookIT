@@ -5,9 +5,10 @@ include '../stylesheet.php';
 
 <html lang="en" dir="ltr">
   <head>
-  <title></title>
+  <title>Opret bruger</title>
   </head>
   <body>
+    <img src="../logo.png" alt="Title" style="width:660px;height:88px;">
     <!-- Creates all the labels for the register page -->
     <p class="sansserif" style="position:absolute;TOP:240;left:527"> Fornavn</P>
     <p class="sansserif" style="position:absolute;TOP:265;left:517"> Efternavn</P>
@@ -24,7 +25,7 @@ include '../stylesheet.php';
       <input type="password" style="position:absolute;TOP:325px;left:600px;WIDTH:200" name="pw" id="pw"><br>
       <input type="password" style="position:absolute;TOP:350px;left:600px;WIDTH:200 " name="cpw" id="cpw"><br>
 
-      <input type="submit" value="Opret bruger" style="position:absolute;TOP:375px;left:600px;WIDTH:200;HEIGHT:20">
+      <input HREF="../Front.php" type="submit" value="Opret bruger" style="position:absolute;TOP:375px;left:600px;WIDTH:200;HEIGHT:20">
       </form>
 
 
