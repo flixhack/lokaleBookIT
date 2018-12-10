@@ -2,6 +2,7 @@
 include '/Header.php';
 
 $Navn = $_POST['Navn']; /*Sets a variable with the text from Email input*/
+$Klasse = $_POST['Klasse']
 $preHashPass = $_POST['Password']; /*Sets a variable with the text from Password input*/
 $passwordLogin = hash('sha1', $preHashPass); /*Hashes the password*/
 $loginCheck="SELECT * FROM Bruger WHERE Navn = '{$Navn}' AND Password = '{$passwordLogin}' AND Klasse = '{$Klasse}'"; /*Making an sql-query that search for an matching email and hashed password*/
