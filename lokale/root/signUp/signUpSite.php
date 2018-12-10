@@ -17,7 +17,7 @@ include '../stylesheet.php';
 </style>
   </head>
   <body>
-    <img src="../logo.png" alt="Title" style="width:660px;height:88px;">
+    <img src="../logo2.png" alt="Title" style="width:660px;height:88px;">
     <!-- Creates all the labels for the register page -->
     <p class="sansserif" style="position:absolute;TOP:240;left:527"> Fornavn</P>
     <p class="sansserif" style="position:absolute;TOP:265;left:517"> Efternavn</P>

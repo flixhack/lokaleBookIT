@@ -1,12 +1,9 @@
 <?php
-include '/header.php';
+include 'header.php';
 
 $Navn = $_POST['Navn']; /*Sets a variable with the text from Email input*/
-<<<<<<< HEAD
-$Enavn = $_POST['Efternavn']
-=======
+$Enavn = $_POST['Efternavn'];
 $Klasse = $_POST['Klasse'];
->>>>>>> 02c8de0df31f0a864c4cf4165f677b0555c7c901
 $preHashPass = $_POST['Password']; /*Sets a variable with the text from Password input*/
 $passwordLogin = hash('sha1', $preHashPass); /*Hashes the password*/
 $loginCheck="SELECT * FROM Bruger WHERE Navn = '{$Navn}' AND Password = '{$passwordLogin}' AND Efternavn = '{$Enavn}'"; /*Making an sql-query that search for an matching email and hashed password*/
