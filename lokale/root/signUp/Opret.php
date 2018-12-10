@@ -5,8 +5,7 @@ include '../header.php'; // includes Headernl.php(Database info and login)
 
 
 
-$klasse2 = $_POST['klasse']; //Gets the klasse from input on register page
-$klasse = strtolower($klasse2); //Makes the klasse all lowercase
+$klasse = $_POST['klasse']; //Gets the klasse from input on register page
 $Navn = $_POST['Navn']; //Gets the first name from input on register page
 $Efternavn = $_POST['Efternavn']; //Gets the last name from input on register page
 $preHashPass = $_POST['pw']; // Gets the password from input on register page
