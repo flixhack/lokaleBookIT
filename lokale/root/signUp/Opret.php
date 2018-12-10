@@ -1,5 +1,5 @@
 <?php
-include 'header.php'; // includes Headernl.php(Database info and login)
+include '../header.php'; // includes Headernl.php(Database info and login)
 
 
 
