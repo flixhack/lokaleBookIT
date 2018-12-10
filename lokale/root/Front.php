@@ -14,6 +14,13 @@ include 'stylesheet.php';
         float: right;
         padding: 150px;
 }
+select {
+width: 100%;
+padding:3px 3px;
+border: 1px;
+border-radius: 0px;
+background-color: #ffffff;
+}
     </style>
   </head>
   <body>
@@ -22,15 +29,42 @@ include 'stylesheet.php';
 </script>
   </body>
 <form name="login" action="login.php" method="POST">
-  <input type="email" style="position:absolute;TOP:35px;left:850px" placeholder="Email" name="Email" id="Email"><br>
+  <input type="text" style="position:absolute;TOP:35px;left:850px" placeholder="Navn" name="Navn" id="Navn"><br>
   <input type="password" style="position:absolute;TOP:35px;left:1030px" placeholder="Password" name="Password" id="Password"><br>
-
+  <select style="position:absolute;TOP:35px;left:760px;WIDTH:70" name="klasse" id="klasse">
+  <option value="16xaa">16xaa</option>
+  <option value="16xab">16xab</option>
+  <option value="16xac">16xac</option>
+  <option value="16xad">16xad</option>
+  <option value="16xae">16xae</option>
+  <option value="16xaf">16xaf</option>
+  <option value="16xaj">16xaj</option>
+  <option value="16xap">16xap</option>
+  <option value="16xar">16xar</option>
+  <option value="17xaa">17xaa</option>
+  <option value="17xab">17xab</option>
+  <option value="17xac">17xac</option>
+  <option value="17xad">17xad</option>
+  <option value="17xae">17xae</option>
+  <option value="17xaj">17xaj</option>
+  <option value="17xap">17xap</option>
+  <option value="17xaq">17xaq</option>
+  <option value="17xar">17xar</option>
+  <option value="18xaa">18xaa</option>
+  <option value="18xab">18xab</option>
+  <option value="18xad">18xad</option>
+  <option value="18xae">18xae</option>
+  <option value="18xaj">18xaj</option>
+  <option value="18xap">18xap</option>
+  <option value="18xaq">18xaq</option>
+  <option value="18xar">18xar</option>
+  </select>
   <input type="submit" value="Login" style="position:absolute;TOP:35px;left:1210px;WIDTH:60;HEIGHT:22">
 </form>
 
   <A HREF="signUp/signUpSite.php" class="format">Opret bruger</A>
 
-  <p>Velkommen til lokalebooking på Aarhus Gymnasium. <br /> Denne webside er en service, der kan hjælpe dig <br /> med hurtigt at få et overblik over ledige lokaler på skolen <br /> samtidig med at give dig en mulighed for at reservere det lokale du har brug for. </p>
+  <p>Velkommen til lokalebooking på Aarhus Gymnasium. <br /> Denne webside er en service, der kan hjælpe dig <br /> med hurtigt at få et overblik over ledige lokaler på skolen <br /> samtidig med at give dig en mulighed  <br /> for at reservere det lokale du har brug for. </p>
 </html>
 
 
