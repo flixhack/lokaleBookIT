@@ -11,8 +11,8 @@ include 'stylesheet.php';
     <title>LokaleBooking - Aarhus Gymnasium</title>
     <style>
     a.format {
-        float: left;
-        padding: 15px;
+        float: right;
+        padding: 150px;
 }
     </style>
   </head>
@@ -32,4 +32,4 @@ include 'stylesheet.php';
 </html>
 
 
-#style="color:#ffffff;position:absolute;TOP:60px;left:850px"
+ <!-- style="color:#ffffff;position:absolute;TOP:60px;left:850px" -->
