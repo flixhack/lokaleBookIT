@@ -1,11 +1,10 @@
 <?php
 include '/Header.php';
 
-$email2 = $_POST['Email']; /*Sets a variable with the text from Email input*/
-$email = strtolower($email2); /*Sets the email to be all lowercase*/
+$Navn = $_POST['Navn']; /*Sets a variable with the text from Email input*/
 $preHashPass = $_POST['Password']; /*Sets a variable with the text from Password input*/
 $passwordLogin = hash('sha1', $preHashPass); /*Hashes the password*/
-$loginCheck="SELECT * FROM Bruger WHERE Navn = '{$email}' AND Password = '{$passwordLogin}' AND Klasse = '{$Klasse}'"; /*Making an sql-query that search for an matching email and hashed password*/
+$loginCheck="SELECT * FROM Bruger WHERE Navn = '{$Navn}' AND Password = '{$passwordLogin}' AND Klasse = '{$Klasse}'"; /*Making an sql-query that search for an matching email and hashed password*/
 
 $rs = mysqli_query($conn, $loginCheck); /*Connect to our database and runs the sql-query*/
 
