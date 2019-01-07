@@ -1,6 +1,7 @@
 <?php
 include '../header.php';
 //include 'checkSession.php';
+include 'HTMLIncluder.php';
 
  ?>
 <!DOCTYPE html>
@@ -10,6 +11,7 @@ include '../header.php';
     <title></title>
   </head>
   <body>
+
     <div class="icon-bar">
       <a href="Profilepage.php"><i class="fa fa-user"></i></a>
       <a href="../ChatApp/#"><i class="fa fa-envelope"></i></a>
