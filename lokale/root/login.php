@@ -14,9 +14,9 @@ $data = mysqli_fetch_array($rs);
 
 if ($rs->num_rows != 0) { /*Checks if database returns a row or not*/
   $_SESSION["loggedIn"] = $data['ID']; //Sets session variable loggedIn to be equal you ID from database
-  header('Location: ../Front+logo+icon/webCore.php'); //Redirects you to the homepage
+  header('Location: loggedIn/Home.php'); //Redirects you to the homepage
 } else {
     $_SESSION["loggedIn"] = "0"; //Sets session variable to be equal 0
-    print '<script type="text/javascript">alert("Forkert navn eller kodeord"); window.location = "FrontLogin.php"; </script>';//Makes a javascript prompt that says incorrect email or password
+    print '<script type="text/javascript">alert("Forkert navn eller kodeord"); window.location = "Front.php"; </script>';//Makes a javascript prompt that says incorrect email or password
 }
  ?>

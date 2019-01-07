@@ -30,9 +30,9 @@ background-color: #ffffff;
 </script>
   </body>
 <form name="login" action="login.php" method="POST">
-  <input type="text" style="position:absolute;TOP:35px;left:670px" placeholder="Navn" name="Navn" id="Navn"><br>
+  <input type="text" style="position:absolute;TOP:35px;left:670px" placeholder="Fornavn" name="Navn" id="Navn"><br>
   <input type="text" style="position:absolute;TOP:35px;left:850px" placeholder="Efternavn" name="Efternavn" id="Efternavn"><br>
-  <input type="password" style="position:absolute;TOP:35px;left:1030px" placeholder="Password" name="Password" id="Password"><br>
+  <input type="password" style="position:absolute;TOP:35px;left:1030px" placeholder="Kodeord" name="Password" id="Password"><br>
   <!--<input type="select" style="position:absolute;TOP:35px;left:760px;WIDTH:70" name="klasse" id="Klasse">
   <option value="16xaa">16xaa</option>
   <option value="16xab">16xab</option>
