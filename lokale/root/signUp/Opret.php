@@ -14,7 +14,7 @@ $password = hash('sha1', $preHashPass); // Hashes the Password
 $passwordC = hash('sha1', $preHashPassC);// Hashes the Confirm Password
 
 
-$sql = "INSERT INTO Bruger VALUES (NULL,'{$klasse}','{$Navn}','{$Efternavn}','{$password}','f')"; //Makes sql query for inserting user
+$sql = "INSERT INTO Bruger VALUES (NULL,'{$klasse}','{$Navn}','{$Efternavn}','{$Password}','f')"; //Makes sql query for inserting user
 // $check="SELECT * FROM mellowMembers WHERE klasse = '{$klasse}'"; // Makes sql query that searches database for matching klasse
 $rs = mysqli_query($conn,$check); // Runs sql connect and check query
 if ($klasse != "" && $Navn != "" && $Efternavn != "" && $preHashPass != "" && $preHashPassC != "") {
@@ -24,7 +24,7 @@ if ($klasse != "" && $Navn != "" && $Efternavn != "" && $preHashPass != "" && $p
     } else {
       echo "Error: could not connect, try again later: " . mysqli_error($conn);
     }
-  } else {
+  } else {½
     print '<script type="text/javascript">alert("Passwords are not identical"); window.location = "../Front.php"; </script>';
   }
 } else {
