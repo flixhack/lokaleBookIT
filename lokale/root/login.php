@@ -17,6 +17,6 @@ if ($rs->num_rows != 0) { /*Checks if database returns a row or not*/
   header('Location: ../Front+logo+icon/webCore.php'); //Redirects you to the homepage
 } else {
     $_SESSION["loggedIn"] = "0"; //Sets session variable to be equal 0
-    print '<script type="text/javascript">alert("Incorrect email or password"); window.location = "FrontLogin.php"; </script>';//Makes a javascript prompt that says incorrect email or password
+    print '<script type="text/javascript">alert("Forkert navn eller kodeord"); window.location = "FrontLogin.php"; </script>';//Makes a javascript prompt that says incorrect email or password
 }
  ?>

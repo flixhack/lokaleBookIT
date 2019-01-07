@@ -20,15 +20,15 @@ $rs = mysqli_query($conn,$check); // Runs sql connect and check query
 if ($klasse != "" && $Navn != "" && $Efternavn != "" && $preHashPass != "" && $preHashPassC != "") {
   if ($password == $passwordC) {
     if (mysqli_query($conn, $sql)) {
-      print '<script type="text/javascript"> window.location = "../home.php"; </script>';
+      print '<script type="text/javascript"> window.location = "../Front.php"; </script>';
     } else {
       echo "Error: could not connect, try again later: " . mysqli_error($conn);
     }
   } else {
-    print '<script type="text/javascript">alert("Passwords are not identical"); window.location = "../home.php"; </script>';
+    print '<script type="text/javascript">alert("Passwords are not identical"); window.location = "../Front.php"; </script>';
   }
 } else {
-  print '<script type="text/javascript">alert("All fields are MANDATORY!!!"); window.location = "../home.php"; </script>';
+  print '<script type="text/javascript">alert("All fields are MANDATORY!!!"); window.location = "../Front.php"; </script>';
 }
 
 
