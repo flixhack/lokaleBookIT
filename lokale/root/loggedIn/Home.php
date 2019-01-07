@@ -1,6 +1,6 @@
 <?php
 include '../header.php';
-include 'checkSession.php';
+//include 'checkSession.php';
 
  ?>
 <!DOCTYPE html>
