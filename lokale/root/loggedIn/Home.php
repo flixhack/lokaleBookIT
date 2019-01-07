@@ -16,7 +16,7 @@ include 'HTMLIncluder.php';
       <a href="Profilepage.php"><i class="fa fa-user"></i></a>
       <a href="../ChatApp/#"><i class="fa fa-envelope"></i></a>
       <a href="Settings.php"><i class="fa fa-gear"></i></a>
-      <a class="active" href="webCore.php"><i class="fa fa-home"></i></a>
+      <a class="active" href="webCore.php"><i class="fa fa-table"></i></a>
       <a href="../destroySession.php"><i class="fa fa-sign-out"></i></a>
     </div>
 
