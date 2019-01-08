@@ -13,10 +13,10 @@ include 'HTMLIncluder.php';
   <body>
 
     <div class="icon-bar">
-      <a class="active" href="Home.php"><i class="fa fa-table"></i></a>
+      <a href="Home.php"><i class="fa fa-table"></i></a>
       <a href=""><i class="fa fa-envelope"></i></a>
       <a href=""><i class="fa fa-bell"></i></a>
-      <a href="Settings.php"><i class="fa fa-gear"></i></a>
+      <a class="active" href="Settings.php"><i class="fa fa-gear"></i></a>
       <a href="../destroySession.php"><i class="fa fa-sign-out"></i></a>
     </div>
 
