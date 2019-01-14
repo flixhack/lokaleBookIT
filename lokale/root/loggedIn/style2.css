@@ -1,0 +1,8 @@
+/*Style settings */
+body{
+  background-color: #0084ac;
+  color:White;
+}
+p.sansserif {
+    font-family: Verdana, Helvetica, sans-serif;
+}

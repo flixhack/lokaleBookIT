@@ -29,7 +29,7 @@ input[type=text] {
 
 <body>
 <p>
-<a href="Home.php"> <!--linking the title picture to the homepage, so when you click on the title, you get redirected to the homepage-->
+<a href="/Programmering/loggedIn/Home.php"> <!--linking the title picture to the homepage, so when you click on the title, you get redirected to the homepage-->
 <img src="../logo2.png" alt="Title" style="width:330px;height:44px;">
 </a>
 </p>

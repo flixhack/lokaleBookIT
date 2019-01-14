@@ -1,7 +1,7 @@
 <?php
 include '../../header.php';
-include '../checkSession.php';
-
+//include '../checkSession.php';
+include '../HTMLIncluder.php';
  ?>
  <!DOCTYPE html>
  <html lang="en" dir="ltr">
@@ -12,11 +12,11 @@ include '../checkSession.php';
    <body>
 
      <div class="icon-bar">
-       <a href="Home.php"><i class="fa fa-table"></i></a>
+       <a href="../Home.php"><i class="fa fa-table"></i></a>
        <a class="active" href="chitchat/chat.php"><i class="fa fa-envelope"></i></a>
-       <a href="Notifications.php"><i class="fa fa-bell"></i></a>
-       <a href="Settings.php"><i class="fa fa-gear"></i></a>
-       <a href="../destroySession.php"><i class="fa fa-sign-out"></i></a>
+       <a href="../Notifications.php"><i class="fa fa-bell"></i></a>
+       <a href="../Settings.php"><i class="fa fa-gear"></i></a>
+       <a href="../../destroySession.php"><i class="fa fa-sign-out"></i></a>
      </div>
 
    </body>
