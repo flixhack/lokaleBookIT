@@ -20,5 +20,6 @@ include 'HTMLIncluder.php';
       <a href="../destroySession.php"><i class="fa fa-sign-out"></i></a>
     </div>
 
+<h1> Notifikationer </h1>
   </body>
 </html>
