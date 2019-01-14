@@ -19,5 +19,11 @@ include '../HTMLIncluder.php';
        <a href="../../destroySession.php"><i class="fa fa-sign-out"></i></a>
      </div>
 
+     <select style="position:absolute;TOP:300px;left:600px;WIDTH:200" name="klasse" id="klasse">
+     <option value="Marta">16xaa</option>
+     <option value="16xab">16xab</option>
+
+     </select>
+
    </body>
 </html>
