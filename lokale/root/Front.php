@@ -26,7 +26,7 @@ background-color: #ffffff;
   </head>
   <body>
 <img src="logo2.png" alt="Title" style="width:660px;height:88px;">
-<?php print($_SESSION[loggedIn]); ?>
+
 </script>
   </body>
 <form name="login" action="login.php" method="POST">
