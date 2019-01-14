@@ -11,7 +11,7 @@ include 'HTMLIncluder.php';
     <title></title>
   </head>
   <body>
-
+    <?php print($_SESSION[loggedIn]); ?>
     <div class="icon-bar">
       <a class="active" href="Home.php"><i class="fa fa-table"></i></a>
       <a href="chitchat/chat.php"><i class="fa fa-envelope"></i></a>
