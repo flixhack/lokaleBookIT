@@ -18,6 +18,13 @@ include 'HTMLIncluder.php';
 
   <script>
 
+  function submitChat() {
+   if(form1.msg.value == '') { //if the textarea is empty, you get an alert about you need to write a message
+     alert("You need to write a message");
+     return;
+
+   }
+
    var msg = form1.msg.value;
    var xmlhttp = new XMLHttpRequest();
 
@@ -27,6 +34,11 @@ include 'HTMLIncluder.php';
      }
    }
 
+   xmlhttp.open('GET','insert.php?msg='+msg,true); //getting the information from insert, which is the users name and message
+   xmlhttp.send();
+
+  document.getElementById("output").value=''; //Sets the textareas value to nothing after pressing the send button, so the textarea gets cleared
+  }
 
   $(document).ready(function(e){
    $.ajaxSetup({
