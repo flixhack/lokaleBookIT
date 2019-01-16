@@ -33,19 +33,21 @@ background-color: #ffffff;
     <!-- <link href="style2.css" rel="stylesheet"> -->
   </head>
 </script>
-  <body class="text-center">
+  <body class="text-right">
     <img src="logo2.png" alt="Title" style="width:660px;height:88px;">
       <form name="login" action="login.php" method="POST">
-      <form class="form-signin text-center">
+      <form class="form-signin text-right">
   <!--<input type="text" style="position:absolute;TOP:35px;left:670px" placeholder="Fornavn" name="Navn" id="Navn"><br>
   <input type="text" style="position:absolute;TOP:35px;left:850px" placeholder="Efternavn" name="Efternavn" id="Efternavn"><br>
   <input type="password" style="position:absolute;TOP:35px;left:1030px" placeholder="Kodeord" name="Password" id="Password"><br>-->
-        
-            <input type="text" id="Fornavn" class="form-control text-center" placeholder="Fornavn" required autofocus>
 
-            <input type="text" id="Efternavn" class="form-control text-center" placeholder="Efternavn" required autofocus>
+        <h1 class="h3 mb-3 font-weight-normal text-center">Opret bruger</h1>
 
-              <input type="password" id="Password" class="form-control text-center" placeholder="Kodeord" required autofocus>
+            <input type="text" id="Fornavn" class="form-control text-right" placeholder="Fornavn" required autofocus>
+
+            <input type="text" id="Efternavn" class="form-control text-right" placeholder="Efternavn" required autofocus>
+
+              <input type="password" id="Password" class="form-control text-right" placeholder="Kodeord" required autofocus>
 
               <div class="checkbox mb-3 text-center">
                 <label>
@@ -59,7 +61,7 @@ background-color: #ffffff;
   </form>
 </body>
 
-  <A HREF="signUp/signUpSite.php" class="format text-center">Opret bruger test</A>
+  <A HREF="signUp/signUpSite.php" class="format text-text-right">Opret bruger test</A>
 
 
   <p class="sansserif">Velkommen til lokalebooking på Aarhus Gymnasium. <br /> Denne webside er en service, der kan hjælpe dig <br /> med hurtigt at få et overblik over ledige lokaler på skolen <br /> samtidig med at give dig en mulighed  <br /> for at reservere det lokale du har brug for. </p>
