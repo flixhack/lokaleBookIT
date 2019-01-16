@@ -87,7 +87,7 @@ background-color: #ffffff;
     </form>
   </body>
 
-  <!--<A HREF="signUp/signUpSite.php" class="format">Opret bruger</A>-->
+  <A HREF="signUp/signUpSite.php" class="format">Opret bruger</A>
 
 
   <p class="sansserif">Velkommen til lokalebooking på Aarhus Gymnasium. <br /> Denne webside er en service, der kan hjælpe dig <br /> med hurtigt at få et overblik over ledige lokaler på skolen <br /> samtidig med at give dig en mulighed  <br /> for at reservere det lokale du har brug for. </p>
