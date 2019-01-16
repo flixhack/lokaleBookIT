@@ -13,7 +13,7 @@ input[type=text] {
 </style>
 <style>
 .button {
-    background-color: #0084ac;
+    background-color: #55c2e4;
     border: none;
     color: white;
     padding: 5px 15px;

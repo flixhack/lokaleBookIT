@@ -51,7 +51,7 @@ background-color: #ffffff;
                   <input type="checkbox" value="husk-mig"> Husk mig
                 </label>
               </div>
-              <button class="btn btn-lg btn-primary btn-block" type="submit" value="login">Login</button>
+              <input type="submit" value="login" text="login">
 
     <!-- <input type="submit" value="Login" style="position:absolute;TOP:35px;left:1210px;WIDTH:60;HEIGHT:22"> -->
     </form>
