@@ -1,8 +1,8 @@
 <?php
 include 'header.php';
 
-$Navn = $_POST['Navn']; /*Sets a variable with the text from Email input*/
-$Enavn = $_POST['Efternavn'];
+$Navn = startlower($_POST['Navn']); /*Sets a variable with the text from Email input*/
+$Enavn = startlower($_POST['Efternavn']);
 $Klasse = $_POST['Klasse'];
 $preHashPass = $_POST['Password']; /*Sets a variable with the text from Password input*/
 $passwordLogin = hash('sha1', $preHashPass); /*Hashes the password*/
