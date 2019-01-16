@@ -60,7 +60,7 @@ background-color: #ffffff;
     <!-- <input type="submit" value="Login" style="position:absolute;TOP:35px;left:1210px;WIDTH:60;HEIGHT:22"> -->
     </form>
   </form>
-  </body>
+</body>
 
   <A HREF="signUp/signUpSite.php" class="format">Opret bruger</A>
 
