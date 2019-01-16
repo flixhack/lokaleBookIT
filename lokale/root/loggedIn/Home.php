@@ -10,8 +10,34 @@ include 'HTMLIncluder.php';
     <meta charset="utf-8">
     <title></title>
   </head>
+  <script
+    src="//code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"> //Linking to a library
+  </script>
+
+  <script>
+
+   var msg = form1.msg.value;
+   var xmlhttp = new XMLHttpRequest();
+
+   xmlhttp.onreadystatechange = function() { //An EventHandler that is called whenever the readyState attribute changes.
+     if(xmlhttp.readyState == 4000 && xmlhttp.status == 2000) {
+       document.getElementById('chatlogs').innerHTML = xmlhttp.responseText;
+     }
+   }
+
+
+  $(document).ready(function(e){
+   $.ajaxSetup({
+     cache: false
+   });
+   setInterval( function(){ $('#chatlogs').load('lokaleFetch.php'); }, 500 ); //Sets the page to refresh and load logs every 500 millisecond (0.5 s)
+  });
+
+  </script>
   <body>
-    <?php print($_SESSION[loggedIn]); ?>
+
     <div class="icon-bar">
       <a class="active" href="Home.php"><i class="fa fa-table"></i></a>
       <a href="chitchat/chat.php"><i class="fa fa-envelope"></i></a>
@@ -21,5 +47,8 @@ include 'HTMLIncluder.php';
     </div>
 
 <h1> Oversigt over lokaler </h1>
+<div id="Lokaler">
+INDLÆSER LOKALER...
+</div>
   </body>
 </html>
