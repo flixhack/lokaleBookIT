@@ -41,13 +41,10 @@ background-color: #ffffff;
   <input type="password" style="position:absolute;TOP:35px;left:1030px" placeholder="Kodeord" name="Password" id="Password"><br>-->
         <h1 class="h3 mb-3 font-weight-normal">Opret bruger</h1>
 
-            <!-- <label for="Fornavn" class="sr-only"/label> -->
             <input type="text" id="Fornavn" class="form-control text-center" placeholder="Fornavn" required autofocus>
 
-            <!-- <label for="Efternavn" class="sr-only"/label> -->
             <input type="text" id="Efternavn" class="form-control text-center" placeholder="Efternavn" required autofocus>
 
-              <!-- <label for="Kodeord" class="sr-only"/label> -->
               <input type="password" id="Password" class="form-control text-center" placeholder="Kodeord" required autofocus>
 
               <div class="checkbox mb-3 text-center">
