@@ -30,7 +30,7 @@ border-radius: 0px;
 background-color: #ffffff;
 }
     </style>
-    <link href="style2.css" rel="stylesheet">
+    <!-- <link href="style2.css" rel="stylesheet"> -->
   </head>
 </script>
   <body class="text-center">
