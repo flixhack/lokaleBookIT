@@ -40,12 +40,7 @@ background-color: #ffffff;
   <!--<input type="text" style="position:absolute;TOP:35px;left:670px" placeholder="Fornavn" name="Navn" id="Navn"><br>
   <input type="text" style="position:absolute;TOP:35px;left:850px" placeholder="Efternavn" name="Efternavn" id="Efternavn"><br>
   <input type="password" style="position:absolute;TOP:35px;left:1030px" placeholder="Kodeord" name="Password" id="Password"><br>-->
-<<<<<<< HEAD
         
-=======
-        <h1 class="h3 mb-3 font-weight-normal text-center">Opret bruger</h1>
->>>>>>> 40b74762ff65a85a0bee37cac58e50fda960cae6
-
             <input type="text" id="Fornavn" class="form-control text-center" placeholder="Fornavn" required autofocus>
 
             <input type="text" id="Efternavn" class="form-control text-center" placeholder="Efternavn" required autofocus>
