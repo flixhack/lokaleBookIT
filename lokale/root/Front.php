@@ -12,7 +12,8 @@ include 'stylesheet.php';
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
-    <!-- <link href="style2.css" rel="stylesheet" type="text/css"> -->
+    <link href="style2.css" rel="stylesheet" type="text/css">
+    <link href="loggedIn/style.css" rel="stylesheet" type="text/css">
     <title>LokaleBooking - Aarhus Gymnasium</title>
     <style>
 
