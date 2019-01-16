@@ -13,7 +13,7 @@ $rs = mysqli_query($conn, $loginCheck); /*Connect to our database and runs the s
 $data = mysqli_fetch_array($rs);
 
 if ($rs->num_rows != 0) { /*Checks if database returns a row or not*/
-  $_SESSION["loggedIn"] = $data['ID']; //Sets session variable loggedIn to be equal you ID from database
+  $_SESSION["loggedIn"] = 1; //Sets session variable loggedIn to be equal you ID from database
   header('Location: loggedIn/Home.php'); //Redirects you to the homepage
 } else {
     $_SESSION["loggedIn"] = "0"; //Sets session variable to be equal 0
