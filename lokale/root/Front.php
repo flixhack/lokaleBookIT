@@ -47,7 +47,7 @@ background-color: #ffffff;
 
             <input type="text" id="Efternavn" class="form-control text-right" placeholder="Efternavn" required autofocus>
 
-              <input type="password" id="Password" class="form-control text-right" placeholder="Kodeord" required autofocus>
+            <input type="password" id="Password" class="form-control text-right" placeholder="Kodeord" required autofocus>
 
               <div class="checkbox mb-3 text-center">
                 <label>
