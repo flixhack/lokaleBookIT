@@ -35,24 +35,34 @@ background-color: #ffffff;
 </script>
   <body class="text-right">
     <img src="logo2.png" alt="Title" style="width:660px;height:88px;">
-    <h1 class="h3 mb-3 font-weight-normal text-center">Opret bruger</h1>
-    <!-- <form class="form-signin text-center"> -->
-    <!--<input type="text" style="position:absolute;TOP:35px;left:670px" placeholder="Fornavn" name="Navn" id="Navn"><br>
-    <input type="text" style="position:absolute;TOP:35px;left:850px" placeholder="Efternavn" name="Efternavn" id="Efternavn"><br>
-    <input type="password" style="position:absolute;TOP:35px;left:1030px" placeholder="Kodeord" name="Password" id="Password"><br>-->
-    <input type="text" id="Fornavn" name="Fornavn" class="form-control text-center" placeholder="Fornavn" required autofocus>
-    <form name="login" action="login.php" method="POST">
-            <input type="text" id="Efternavn" name="Efternavn" class="form-control text-center" placeholder="Efternavn" required autofocus>
-            <input type="password" id="Password" name="Password" class="form-control text-center" placeholder="Kodeord" required autofocus>
-            <div class="checkbox mb-3 text-center">
+      <form name="login" action="login.php" method="POST">
+      <form class="form-signin text-right">
+  <!--<input type="text" style="position:absolute;TOP:35px;left:670px" placeholder="Fornavn" name="Navn" id="Navn"><br>
+  <input type="text" style="position:absolute;TOP:35px;left:850px" placeholder="Efternavn" name="Efternavn" id="Efternavn"><br>
+  <input type="password" style="position:absolute;TOP:35px;left:1030px" placeholder="Kodeord" name="Password" id="Password"><br>-->
+
+        <!-- <h1 class="h3 mb-3 font-weight-normal text-center">Opret bruger</h1> -->
+        <div class="row">
+          <div class="col-sm-3">.col-sm-3</div>
+          <div class="col-sm-6">.col-sm-6</div>
+          <div class="col-sm-3">.col-sm-3</div>
+        </div>
+            
+            <input type="text" id="Fornavn" class="form-control text-right" placeholder="Fornavn" required autofocus>
+
+            <input type="text" id="Efternavn" class="form-control text-right" placeholder="Efternavn" required autofocus>
+
+            <input type="password" id="Password" class="form-control text-right" placeholder="Kodeord" required autofocus>
+
+              <div class="checkbox mb-3 text-center">
                 <label>
                   <input type="checkbox" value="husk-mig"> Husk mig
                 </label>
               </div>
-            <input type="submit" value="login" text="login">
+              <input type="submit" value="login" text="login">
 
     <!-- <input type="submit" value="Login" style="position:absolute;TOP:35px;left:1210px;WIDTH:60;HEIGHT:22"> -->
-    <!-- </form> -->
+    </form>
   </form>
 </body>
 
