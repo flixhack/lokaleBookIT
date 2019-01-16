@@ -35,55 +35,30 @@ background-color: #ffffff;
 </script>
   <body class="text-center">
     <img src="logo2.png" alt="Title" style="width:660px;height:88px;">
-      <!--<form name="login" action="login.php" method="POST">-->
+      <form name="login" action="login.php" method="POST">
       <form class="form-signin">
   <!--<input type="text" style="position:absolute;TOP:35px;left:670px" placeholder="Fornavn" name="Navn" id="Navn"><br>
   <input type="text" style="position:absolute;TOP:35px;left:850px" placeholder="Efternavn" name="Efternavn" id="Efternavn"><br>
   <input type="password" style="position:absolute;TOP:35px;left:1030px" placeholder="Kodeord" name="Password" id="Password"><br>-->
-            <label for="inputFornavn" class="sr-only"/label>
-            <input type="fornavn" id="inputFornavn" class="form-control" placeholder="Fornavn" required autofocus>
+        <h1 class="h3 mb-3 font-weight-normal">Opret bruger</h1>
 
-            <label for="inputEfternavn" class="sr-only"/label>
-            <input type="efternavn" id="inputEfternavn" class="form-control" placeholder="Efternavn" required autofocus>
+            <label for="Fornavn" class="sr-only"/label>
+            <input type="text" id="Fornavn" class="form-control" placeholder="Fornavn" required autofocus>
 
-              <label for="inputKodeord" class="sr-only"/label>
-              <input type="kodeord" id="inputKodeord" class="form-control" placeholder="Kodeord" required autofocus>
+            <label for="Efternavn" class="sr-only"/label>
+            <input type="text" id="Efternavn" class="form-control" placeholder="Efternavn" required autofocus>
+
+              <label for="Kodeord" class="sr-only"/label>
+              <input type="password" id="Password" class="form-control" placeholder="Kodeord" required autofocus>
 
               <div class="checkbox mb-3">
                 <label>
                   <input type="checkbox" value="husk-mig"> Husk mig
                 </label>
               </div>
-              <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
-  <!--<input type="select" style="position:absolute;TOP:35px;left:760px;WIDTH:70" name="klasse" id="Klasse">
-  <option value="16xaa">16xaa</option>
-  <option value="16xab">16xab</option>
-  <option value="16xac">16xac</option>
-  <option value="16xad">16xad</option>
-  <option value="16xae">16xae</option>
-  <option value="16xaf">16xaf</option>
-  <option value="16xaj">16xaj</option>
-  <option value="16xap">16xap</option>
-  <option value="16xar">16xar</option>
-  <option value="17xaa">17xaa</option>
-  <option value="17xab">17xab</option>
-  <option value="17xac">17xac</option>
-  <option value="17xad">17xad</option>
-  <option value="17xae">17xae</option>
-  <option value="17xaj">17xaj</option>
-  <option value="17xap">17xap</option>
-  <option value="17xaq">17xaq</option>
-  <option value="17xar">17xar</option>
-  <option value="18xaa">18xaa</option>
-  <option value="18xab">18xab</option>
-  <option value="18xad">18xad</option>
-  <option value="18xae">18xae</option>
-  <option value="18xaj">18xaj</option>
-  <option value="18xap">18xap</option>
-  <option value="18xaq">18xaq</option>
-  <option value="18xar">18xar</option>
-</select> -->
-    <input type="submit" value="Login" style="position:absolute;TOP:35px;left:1210px;WIDTH:60;HEIGHT:22">
+              <button class="btn btn-lg btn-primary btn-block" type="submit" value="login">Login</button>
+
+    <!-- <input type="submit" value="Login" style="position:absolute;TOP:35px;left:1210px;WIDTH:60;HEIGHT:22"> -->
     </form>
   </body>
 
