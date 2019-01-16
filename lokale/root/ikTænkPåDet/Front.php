@@ -9,7 +9,7 @@ include 'header.php';
   <head>
     <!-- <link href="style2.css" rel="stylesheet" type="text/css"> -->
     <title>LokaleBooking - Aarhus Gymnasium</title>
-    <!-- <style>
+    <style>
 
     a.format {
         float: right;
@@ -23,7 +23,7 @@ border: 1px;
 border-radius: 0px;
 background-color: #ffffff;
 }
-    </style> -->
+    </style>
 
     <link href="signin.css" rel="stylesheet" type="text/css">
   </head>

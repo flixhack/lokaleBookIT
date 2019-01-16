@@ -15,7 +15,6 @@ body {
   justify-content: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #f5f5f5;
 }
 
 .form-signin {
@@ -47,17 +46,7 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-.form-signin input[type="Klasse"] {
-  margin-bottom: 10px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
 .form-signin input[type="kodeord"] {
-  margin-bottom: 10px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
-.form-signin input[type="Bekræft"] {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
