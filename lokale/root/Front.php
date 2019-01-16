@@ -31,15 +31,32 @@ background-color: #ffffff;
     </style>
     <link href="style2.css" rel="stylesheet">
   </head>
-  <body class="text-center">
-<img src="logo2.png" alt="Title" style="width:660px;height:88px;">
 
 </script>
-  </body>
-<form name="login" action="login.php" method="POST">
-  <input type="text" style="position:absolute;TOP:35px;left:670px" placeholder="Fornavn" name="Navn" id="Navn"><br>
+  <body class="text-center">
+    <img src="logo2.png" alt="Title" style="width:660px;height:88px;">
+      <!--<form name="login" action="login.php" method="POST">-->
+      <form class="form-signin">
+  <!--<input type="text" style="position:absolute;TOP:35px;left:670px" placeholder="Fornavn" name="Navn" id="Navn"><br>
   <input type="text" style="position:absolute;TOP:35px;left:850px" placeholder="Efternavn" name="Efternavn" id="Efternavn"><br>
-  <input type="password" style="position:absolute;TOP:35px;left:1030px" placeholder="Kodeord" name="Password" id="Password"><br>
+  <input type="password" style="position:absolute;TOP:35px;left:1030px" placeholder="Kodeord" name="Password" id="Password"><br>-->
+        <h1 class="h3 mb-3 font-weight-normal">Opret bruger</h1>
+
+            <label for="inputFornavn" class="sr-only"/label>
+            <input type="fornavn" id="inputFornavn" class="form-control" placeholder="Fornavn" required autofocus>
+
+            <label for="inputEfternavn" class="sr-only"/label>
+            <input type="efternavn" id="inputEfternavn" class="form-control" placeholder="Efternavn" required autofocus>
+
+              <label for="inputKodeord" class="sr-only"/label>
+              <input type="kodeord" id="inputKodeord" class="form-control" placeholder="Kodeord" required autofocus>
+
+              <div class="checkbox mb-3">
+                <label>
+                  <input type="checkbox" value="husk-mig"> Husk mig
+                </label>
+              </div>
+              <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
   <!--<input type="select" style="position:absolute;TOP:35px;left:760px;WIDTH:70" name="klasse" id="Klasse">
   <option value="16xaa">16xaa</option>
   <option value="16xab">16xab</option>
@@ -68,10 +85,12 @@ background-color: #ffffff;
   <option value="18xaq">18xaq</option>
   <option value="18xar">18xar</option>
 </select> -->
-  <input type="submit" value="Login" style="position:absolute;TOP:35px;left:1210px;WIDTH:60;HEIGHT:22">
-</form>
+    <input type="submit" value="Login" style="position:absolute;TOP:35px;left:1210px;WIDTH:60;HEIGHT:22">
+    </form>
+  </body>
 
-  <A HREF="signUp/signUpSite.php" class="format">Opret bruger</A>
+  <!--<A HREF="signUp/signUpSite.php" class="format">Opret bruger</A>-->
+
 
   <p class="sansserif">Velkommen til lokalebooking på Aarhus Gymnasium. <br /> Denne webside er en service, der kan hjælpe dig <br /> med hurtigt at få et overblik over ledige lokaler på skolen <br /> samtidig med at give dig en mulighed  <br /> for at reservere det lokale du har brug for. </p>
 </html>
