@@ -33,7 +33,7 @@ background-color: #ffffff;
   </head>
 </script>
   <body class="text-center">
-    <!-- <img src="logo2.png" alt="Title" style="width:660px;height:88px;"> -->
+    <img src="logo2.png" alt="Title" style="width:660px;height:88px;">
       <form name="login" action="login.php" method="POST">
       <form class="form-signin">
   <!--<input type="text" style="position:absolute;TOP:35px;left:670px" placeholder="Fornavn" name="Navn" id="Navn"><br>

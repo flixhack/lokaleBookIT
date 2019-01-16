@@ -2,12 +2,12 @@
   <head>
     <meta charset="utf-8">
     <title> LokaleBooking - Aarhus Gymnasium </title>
-    <link href="../style2.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--linking to a website containing icons for an icon bar-->
     <style>
 input[type=text] {
     background-color: #2f2f2f;
-    color: #0084ac;
+    color: #55c2e4;
     border: none;
 }
 </style>
@@ -37,7 +37,7 @@ input[type=text] {
 
 .icon-bar {
     width: 100%;
-    background-color: #0084ac;
+    background-color: #55c2e4;
     overflow: auto;
 }
 
@@ -51,9 +51,9 @@ input[type=text] {
 }
 
 .icon-bar a:hover {
-    background-color: #006b8b;
+    background-color: #58bad8;
 }
 .active {
-    background-color: #006b8b;
+    background-color: #58bad8;
 }
 </style>
