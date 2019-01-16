@@ -40,11 +40,24 @@ background-color: #ffffff;
   <!--<input type="text" style="position:absolute;TOP:35px;left:670px" placeholder="Fornavn" name="Navn" id="Navn"><br>
   <input type="text" style="position:absolute;TOP:35px;left:850px" placeholder="Efternavn" name="Efternavn" id="Efternavn"><br>
   <input type="password" style="position:absolute;TOP:35px;left:1030px" placeholder="Kodeord" name="Password" id="Password"><br>-->
+<<<<<<< HEAD
 
 
             <input type="text" name="Navn" id="navn" class="form-control" placeholder="Fornavn" required autofocus>
             <input type="text" name="EfterNavn" id="Efternavn" class="form-control" placeholder="Efternavn" required autofocus>
             <input type="password" name="Password" id="Password" class="form-control" placeholder="Kodeord" required autofocus>
+=======
+        <h1 class="h3 mb-3 font-weight-normal">Opret bruger</h1>
+
+            <!-- <label for="Fornavn" class="sr-only"/label> -->
+            <input type="text" id="Fornavn" class="form-control" placeholder="Fornavn" required autofocus>
+
+            <!-- <label for="Efternavn" class="sr-only"/label> -->
+            <input type="text" id="Efternavn" class="form-control" placeholder="Efternavn" required autofocus>
+
+              <!-- <label for="Kodeord" class="sr-only"/label> -->
+              <input type="password" id="Password" class="form-control" placeholder="Kodeord" required autofocus>
+>>>>>>> ff682eb9179f166da2a0444e6132af07cc89b6c6
 
               <div class="checkbox mb-3">
                 <label>
