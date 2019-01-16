@@ -13,7 +13,7 @@ include 'stylesheet.php';
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
     <link href="style2.css" rel="stylesheet" type="text/css">
-    <link href="loggedIn/style.css" rel="stylesheet" type="text/css">
+    <link href="/Programmering/loggedIn/style.css" rel="stylesheet" type="text/css">
     <title>LokaleBooking - Aarhus Gymnasium</title>
     <style>
 
@@ -30,7 +30,7 @@ border-radius: 0px;
 background-color: #ffffff;
 }
     </style>
-    <link href="style2.css" rel="stylesheet">
+    <!-- <link href="style2.css" rel="stylesheet"> -->
   </head>
 </script>
   <body class="text-center">
