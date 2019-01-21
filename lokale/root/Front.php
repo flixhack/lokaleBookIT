@@ -42,12 +42,7 @@ background-color: #ffffff;
   <input type="password" style="position:absolute;TOP:35px;left:1030px" placeholder="Kodeord" name="Password" id="Password"><br>-->
 
         <!-- <h1 class="h3 mb-3 font-weight-normal text-center">Opret bruger</h1> -->
-        <div class="row">
-          <div class="col-sm-3">.col-sm-3</div>
-          <div class="col-sm-6">.col-sm-6</div>
-          <div class="col-sm-3">.col-sm-3</div>
-        </div>
-            
+
             <input type="text" id="Fornavn" class="form-control text-right" placeholder="Fornavn" required autofocus>
 
             <input type="text" id="Efternavn" class="form-control text-right" placeholder="Efternavn" required autofocus>
