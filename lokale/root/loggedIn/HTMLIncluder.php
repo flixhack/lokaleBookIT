@@ -2,8 +2,8 @@
   <head>
     <meta charset="utf-8">
     <title> LokaleBooking - Aarhus Gymnasium </title>
-    <link href="style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--linking to a website containing icons for an icon bar-->
+    <link href="/Programmering/loggedIn/style.css" rel="stylesheet" type="text/css">
     <style>
 input[type=text] {
     background-color: #2f2f2f;
