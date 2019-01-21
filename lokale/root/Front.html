@@ -32,7 +32,7 @@ background-color: #ffffff;
     </style>
     <!-- <link href="style2.css" rel="stylesheet"> -->
   </head>
-</script>
+<!-- </script> -->
   <body class="text-right">
     <img src="logo2.png" alt="Title" style="width:660px;height:88px;">
       <form name="login" action="login.php" method="POST">
