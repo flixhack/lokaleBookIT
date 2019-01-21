@@ -49,12 +49,12 @@ background-color: #ffffff;
 
             <input type="password" id="Password" style="position:fixed;" class="form-control text-right" placeholder="Kodeord" required autofocus>
 
-              <div class="checkbox mb-3 text-center">
+              <div style="position:fixed;" class="checkbox mb-3 text-center">
                 <label>
-                  <input type="checkbox" value="husk-mig"> Husk mig
+                  <input type="checkbox" style="position:fixed;" value="husk-mig"> Husk mig
                 </label>
               </div>
-              <input type="submit" value="login" text="login">
+              <input type="submit" style="position:fixed;" value="login" text="login">
 
     <!-- <input type="submit" value="Login" style="position:absolute;TOP:35px;left:1210px;WIDTH:60;HEIGHT:22"> -->
     </form>
