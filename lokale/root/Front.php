@@ -43,11 +43,11 @@ background-color: #ffffff;
 
         <!-- <h1 class="h3 mb-3 font-weight-normal text-center">Opret bruger</h1> -->
 
-            <input type="text" id="Fornavn" style="position:sticky;" class="form-control text-right" placeholder="Fornavn" required autofocus>
+            <input type="text" id="Fornavn" style="position:sticky;" class="form-control" placeholder="Fornavn" required autofocus>
 
-            <input type="text" id="Efternavn" style="position:sticky;TOP:" class="form-control text-right" placeholder="Efternavn" required autofocus>
+            <input type="text" id="Efternavn" style="position:sticky;" class="form-control" placeholder="Efternavn" required autofocus>
 
-            <input type="password" id="Password" style="position:sticky;TOP:" class="form-control text-right" placeholder="Kodeord" required autofocus>
+            <input type="password" id="Password" style="position:sticky;" class="form-control" placeholder="Kodeord" required autofocus>
 
               <div style="position:sticky;" class="checkbox mb-3 text-center">
                 <label>
@@ -61,7 +61,7 @@ background-color: #ffffff;
   </form>
 </body>
 
-  <A HREF="signUp/signUpSite.php" class="format text-text-right">Opret bruger</A>
+  <A HREF="signUp/signUpSite.php" class="format text-text">Opret bruger</A>
 
 
   <p class="sansserif">Velkommen til lokalebooking på Aarhus Gymnasium. <br /> Denne webside er en service, der kan hjælpe dig <br /> med hurtigt at få et overblik over ledige lokaler på skolen <br /> samtidig med at give dig en mulighed  <br /> for at reservere det lokale du har brug for. </p>
