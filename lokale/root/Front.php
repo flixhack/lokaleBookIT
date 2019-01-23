@@ -41,7 +41,11 @@ background-color: #ffffff;
   <input type="text" style="position:absolute;TOP:35px;left:850px" placeholder="Efternavn" name="Efternavn" id="Efternavn"><br>
   <input type="password" style="position:absolute;TOP:35px;left:1030px" placeholder="Kodeord" name="Password" id="Password"><br>-->
 
-        <!-- <h1 class="h3 mb-3 font-weight-normal text-center">Opret bruger</h1> -->
+      <!-- <h1 class="h3 mb-3 font-weight-normal text-center">Opret bruger</h1> -->
+      <form action="/style2.css">
+        Fornavn: <input type="text" id="Fornavn" style="position:sticky;" class="form-control" placeholder="Fornavn" required autofocus>
+        Efternavn: <input type="text" id="Efternavn" style="position:sticky;" class="form-control" placeholder="Efternavn" required autofocus>
+        Kodeord: <input type="password" id="Password" style="position:sticky;" class="form-control" placeholder="Kodeord" required autofocus>
 
             <input type="text" id="Fornavn" style="position:sticky;" class="form-control" placeholder="Fornavn" required autofocus>
 
