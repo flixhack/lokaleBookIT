@@ -35,7 +35,7 @@ background-color: #ffffff;
 <!-- </script> -->
   <body class="text-right">
     <img src="logo2.png" alt="Title" style="width:660px;height:88px;">
-      <form name="login" action="login.php" method="POST">
+    <form name="login" action="login.php" method="POST">
       <form class="form-signin text-right">
   <!--<input type="text" style="position:absolute;TOP:35px;left:670px" placeholder="Fornavn" name="Navn" id="Navn"><br>
   <input type="text" style="position:absolute;TOP:35px;left:850px" placeholder="Efternavn" name="Efternavn" id="Efternavn"><br>
@@ -43,18 +43,16 @@ background-color: #ffffff;
 
         <!-- <h1 class="h3 mb-3 font-weight-normal text-center">Opret bruger</h1> -->
 
-            <input type="text" id="Fornavn" style="position:sticky;" class="form-control" placeholder="Fornavn" required autofocus>
+          <input type="text" name="Navn" id="Navn" style="position:sticky;" class="form-control" placeholder="Fornavn" required autofocus>
+          <input type="text" name="Efternavn" id="Efternavn" style="position:sticky;" class="form-control" placeholder="Efternavn" required autofocus>
+          <input type="password" name="Password" id="Password" style="position:sticky;" class="form-control" placeholder="Kodeord" required autofocus>
 
-            <input type="text" id="Efternavn" style="position:sticky;" class="form-control" placeholder="Efternavn" required autofocus>
-
-            <input type="password" id="Password" style="position:sticky;" class="form-control" placeholder="Kodeord" required autofocus>
-
-              <div style="position:sticky;" class="checkbox mb-3 text-center">
-                <label>
-                  <input type="checkbox" style="position:sticky;" value="husk-mig"> Husk mig
-                </label>
-              </div>
-              <input type="submit" style="position:sticky;" value="login" text="login">
+          <div style="position:sticky;" class="checkbox mb-3 text-center">
+            <label>
+              <input type="checkbox" style="position:sticky;" value="husk-mig"> Husk mig
+            </label>
+          </div>
+          <input type="submit" style="position:sticky;" value="login">
 
     <!-- <input type="submit" value="Login" style="position:absolute;TOP:35px;left:1210px;WIDTH:60;HEIGHT:22"> -->
     </form>

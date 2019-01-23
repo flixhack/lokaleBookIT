@@ -1,6 +1,6 @@
 <?php
 include '../header.php';
-include '../stylesheet.php';
+include 'stylesheet.php';
 ?>
 
 <html lang="en" dir="ltr">
