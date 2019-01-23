@@ -43,15 +43,15 @@ background-color: #ffffff;
 
       <!-- <h1 class="h3 mb-3 font-weight-normal text-center">Opret bruger</h1> -->
       <form action="/style2.css">
-        Fornavn: <input type="text" id="Fornavn" style="position:sticky;" class="form-control" placeholder="Fornavn" required autofocus>
-        Efternavn: <input type="text" id="Efternavn" style="position:sticky;" class="form-control" placeholder="Efternavn" required autofocus>
-        Kodeord: <input type="password" id="Password" style="position:sticky;" class="form-control" placeholder="Kodeord" required autofocus>
+        <input type="text" id="Fornavn" style="position:sticky;" class="form-control" placeholder="Fornavn" required autofocus>
+        <input type="text" id="Efternavn" style="position:sticky;" class="form-control" placeholder="Efternavn" required autofocus>
+        <input type="password" id="Password" style="position:sticky;" class="form-control" placeholder="Kodeord" required autofocus>
 
-            <input type="text" id="Fornavn" style="position:sticky;" class="form-control" placeholder="Fornavn" required autofocus>
+            <!-- <input type="text" id="Fornavn" style="position:sticky;" class="form-control" placeholder="Fornavn" required autofocus> -->
 
-            <input type="text" id="Efternavn" style="position:sticky;" class="form-control" placeholder="Efternavn" required autofocus>
+            <!-- <input type="text" id="Efternavn" style="position:sticky;" class="form-control" placeholder="Efternavn" required autofocus> -->
 
-            <input type="password" id="Password" style="position:sticky;" class="form-control" placeholder="Kodeord" required autofocus>
+            <!-- <input type="password" id="Password" style="position:sticky;" class="form-control" placeholder="Kodeord" required autofocus> -->
 
               <div style="position:sticky;" class="checkbox mb-3 text-center">
                 <label>
