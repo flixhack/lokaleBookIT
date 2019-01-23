@@ -69,9 +69,9 @@ $ID = $_SESSION["loggedIn"];
 
 $query ="SELECT * FROM Bruger WHERE ID = $ID";
 
-$rs = mysqli_query($conn, $query);
+$result = mysqli_query($conn, $query);
 
-while($data = mysqli_fetch_array($rs)){
+while($data = mysqli_fetch_array($result)){
   echo "Welcome" ." ". $data['Navn'].",";
 
 }
