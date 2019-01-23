@@ -35,7 +35,7 @@ background-color: #ffffff;
 <!-- </script> -->
   <body class="text-right">
     <img src="logo2.png" alt="Title" style="width:660px;height:88px;">
-      <form name="login" action="login.php" method="POST">
+    <form name="login" action="login.php" method="POST">
       <form class="form-signin text-right">
   <!--<input type="text" style="position:absolute;TOP:35px;left:670px" placeholder="Fornavn" name="Navn" id="Navn"><br>
   <input type="text" style="position:absolute;TOP:35px;left:850px" placeholder="Efternavn" name="Efternavn" id="Efternavn"><br>

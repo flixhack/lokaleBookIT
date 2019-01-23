@@ -10,7 +10,7 @@ $result1 = mysqli_query($conn, $query); //Connects to database and runs the sql 
 while($extract = mysqli_fetch_array($result1)) { // while loop that connects to database and runs the sql query above
 	$html .= '<table>';
 	$html .= '<tr>';
-		$html .= '<td>' echo $extract['LokaleNR']'</td>'
+		$html .= '<td>' $extract['LokaleNR']'</td>'
 	$html .= '</tr>'
 
 

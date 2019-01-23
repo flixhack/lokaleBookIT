@@ -62,5 +62,19 @@ include 'HTMLIncluder.php';
 <div id="Lokaler">
 INDLÆSER LOKALER...
 </div>
+
+<?php
+//Fetches your name from the database for use on the home page
+$ID = $_SESSION["loggedIn"];
+
+$query ="SELECT * FROM Bruger WHERE ID = $ID";
+
+$rs = mysqli_query($conn, $query);
+
+while($data = mysqli_fetch_array($rs)){
+  echo "Welcome" ." ". $data['Navn'].",";
+
+}
+?>
   </body>
 </html>
