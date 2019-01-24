@@ -73,7 +73,6 @@ $result = mysqli_query($conn, $query);
 
 while($data = mysqli_fetch_array($result)){
   echo "Welcome" ." ". $data['Navn'].",";
-
 }
 ?>
   </body>
