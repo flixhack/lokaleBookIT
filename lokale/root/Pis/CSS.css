@@ -29,7 +29,6 @@
 .box-1 {
   flex: 1;
   order: 1;
-  border: 1px #ccc solid;
   padding: 10px;
 }
 
@@ -42,7 +41,6 @@
 .box-3 {
   flex: 1;
   order: 3;
-  border: 1px #ccc solid;
   padding: 10px;
   max-width:170px
 }
@@ -52,14 +50,12 @@
 .box-4 {
   flex: 1;
   order: 1;
-  border: 1px #ccc solid;
   padding: 10px;
 }
 
 .box-5 {
   flex: 1;
   order: 4;
-  border: 1px #ccc solid;
   padding: 10px;
   max-width:90px;
 }
