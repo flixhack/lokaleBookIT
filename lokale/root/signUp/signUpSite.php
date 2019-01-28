@@ -22,7 +22,7 @@ include 'stylesheet.php';
       <input type="text" style="TOP:250px;left:600px;WIDTH:200" placeholder="Navn" name="Navn" id="Navn"><br>
       <input type="text" style="TOP:275px;left:600px;WIDTH:200" placeholder="Efternavn" name="Efternavn" id="Efternavn"><br>
       <select style="TOP:300px;left:600px;WIDTH:200" name="klasse" id="klasse">
-      <option hidden="">Vælg klasse</option>
+      <option hidden="" value="Vælg klasse" >Vælg klasse</option>
       <option value="16xaa">16xaa</option>
       <option value="16xab">16xab</option>
       <option value="16xac">16xac</option>
