@@ -11,7 +11,7 @@ include 'stylesheet.php';
 
     <body class="text-right">
       <link href="CSS.css" rel="stylesheet" type="text/css">
-      <img src="logo2.png" alt="Title" style="width:660px;height:88px;">
+      <img src="../logo2.png" alt="Title" style="width:660px;height:88px;">
       <form name="login" action="login.php" method="POST">
         <form class="form-signin text-right">
 

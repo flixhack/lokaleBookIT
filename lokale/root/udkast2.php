@@ -17,10 +17,10 @@
   {
     die('Could not connect: ' . mysqli_connect_error());
   }
-  mysqli_select_db('Lokaler');
+  // mysqli_select_db('Lokaler');
 
   $query = "SELECT * FROM Lokale";
-  $result = mysqli_query($query) or die(mysqli_error());
+  $result = mysqli_query($conn, $query) /*or die(mysqli_error())*/;
   ?>
 
 
@@ -33,12 +33,14 @@
   while($row = mysqli_fetch_array($result))
               {
 
-  $namn = $row['namn'];
-  $mandag = $row['mandag'];
-  $tisdag = $row['tisdag'];
-  $onsdag = $row['onsdag'];
-  $torsdag = $row['torsdag'];
-  $fredag = $row['fredag'];
+  $namn = $row['LokaleNr'];
+  $mandag = $row['otte'];
+  $tisdag = $row['09351035'];
+  $onsdag = $row['10451145'];
+  $torsdag = $row['12151315'];
+  $fredag = $row['13251425'];
+  $lørdag = $row['14301530'];
+
   ?>
 
 
@@ -46,8 +48,8 @@
   <td><?=$namn?></td>
   </tr>
   <tr>
-  <td width="100">Mandag</td>
-  <td><input name="mandagid" type="text" value="<?=$mandag?>"></td>
+  <td width="100">08.15-9.15</td>
+  <td><input name="08150915id" type="text" value="<?=$mandag?>"></td>
   </tr>
   <tr>
   <td width="100">Tisdag</td>
@@ -64,6 +66,10 @@
   <tr>
   <td width="100">Fredag</td>
   <td><input name="fredagid" type="text" value="<?=$fredag?>"></td>
+  </tr>
+  <tr>
+  <td width="100">Fredag</td>
+  <td><input name="fredagid" type="text" value="<?=$lørdag?>"></td>
   </tr>
   <?php } ?>
   <tr>
@@ -86,24 +92,33 @@
   if(isset($_POST['update']))
   {
 
-  $namn = $_POST['namnid'];
-  $mandag = $_POST['mandagid'];
+  $namn = $_POST['namn'];
+  $mandag = $_POST['08150915id'];
   $tisdag = $_POST['tisdagid'];
   $onsdag = $_POST['onsdagid'];
   $torsdag = $_POST['torsdagid'];
   $fredag = $_POST['fredagid'];
 
-  $sql = mysqli_query("UPDATE anstalld SET mandag = '$mandag', tisdag = '$tisdag', onsdag = '$onsdag', torsdag = '$torsdag', fredag = '$fredag' WHERE namn = '$namn'");
-
-  $retval = mysqli_query( $sql, $conn );
-  if(! $retval )
+  // $sql = "UPDATE Lokale SET 08150915 = $mandag, 09351035 = $tisdag WHERE LokaleNr=$namn";
+  // $retval = mysqli_query( $sql, $conn );
+  $sql = "UPDATE Lokale SET otte = '$mandag' WHERE LokaleNr = '$namn' ";
+// $sql = "INSERT INTO Bruger VALUES (NULL,'{$klasse}','{$Navn}','{$Efternavn}','{$password}','f')";
+  // if (mysqli_query($conn, $sql)) {
+  //   echo "Updated data";
+  // } else {
+  //   echo "Error: could not connect, try again later: " . mysqli_error($conn);
+  // }
+  // , tisdag = '{$tisdag1}', onsdag = '{$onsdag1}', torsdag = '{$torsdag1}', fredag = '{$fredag1}'
+  if(mysqli_query($conn, $sql) )
   {
-    die('Could not update data: ' . mysqli_error());
-  }
-  echo "Updated data successfully\n";
+    echo "Updated data successfully\n";
+  } else {
+  die('Could not update data: ' . mysqli_error($conn));
 
   }
-
+}
+// }
+// mysqli_close($conn);
 
   ?>
   </body>
