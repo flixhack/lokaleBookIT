@@ -5,32 +5,23 @@ include 'stylesheet.php';
 
 <html lang="en" dir="ltr">
   <head>
-  <title>Opret bruger</title>
-  <style>
-  select {
-  width: 100%;
-  padding:3px 10px;
-  border: none;
-  border-radius: 0px;
-  background-color: #ffffff;
-}
-</style>
+    <title>Opret bruger</title>
   </head>
   <body>
     <img src="../logo2.png" alt="Title" style="width:660px;height:88px;">
     <!-- Creates all the labels for the register page -->
-    <p class="sansserif" style="position:absolute;TOP:240;left:527"> Fornavn</P>
+    <!--<p class="sansserif" style="position:absolute;TOP:240;left:527"> Fornavn</P>
     <p class="sansserif" style="position:absolute;TOP:265;left:517"> Efternavn</P>
     <p class="sansserif" style="position:absolute;TOP:290;left:541"> Klasse</P>
     <p class="sansserif" style="position:absolute;TOP:315;left:528"> Kodeord</P>
-    <p class="sansserif" style="position:absolute;TOP:340;left:473"> Bekræft Kodeord</P>
+    <p class="sansserif" style="position:absolute;TOP:340;left:473"> Bekræft Kodeord</P>-->
 
       </body>
     <!-- Creates all the input fields for register page and tells the submit button to run 'CreateUserScript.php' -->
     <form name="form" action="Opret.php" method="POST">
       <input type="text" style="position:absolute;TOP:250px;left:600px;WIDTH:200" placeholder="Navn" name="Navn" id="Navn"><br>
       <input type="text" style="position:absolute;TOP:275px;left:600px;WIDTH:200" placeholder="Efternavn" name="Efternavn" id="Efternavn"><br>
-      <select style="position:absolute;TOP:300px;left:600px;WIDTH:200" name="klasse" id="klasse">
+      <select style="position:absolute;TOP:300px;left:600px;WIDTH:200" placeholder="Vælg klasse" name="klasse" id="klasse">
       <option value="16xaa">16xaa</option>
       <option value="16xab">16xab</option>
       <option value="16xac">16xac</option>
