@@ -1,18 +1,13 @@
 <?php
 include 'header.php';
-include 'stylesheet.php';
+
 ?>
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-
-    <link href="CSS.css" rel="stylesheet" type="text/css">
-    <link href="/Programmering/loggedIn/style.css" rel="stylesheet" type="text/css">
     <title>LokaleBooking - Aarhus Gymnasium</title>
-    
-  <!-- <link href="style2.css" rel="stylesheet"> -->
   </head>
 
 <div class="container-1">
@@ -20,7 +15,7 @@ include 'stylesheet.php';
 
     <body class="text-right">
       <link href="CSS.css" rel="stylesheet" type="text/css">
-      <img src="../logo2.png" alt="Title" style="width:660px;height:88px;">
+      <img src="logo2.png" alt="Title" style="width:660px;height:88px;">
       <form name="login" action="login.php" method="POST">
         <form class="form-signin text-right">
 
