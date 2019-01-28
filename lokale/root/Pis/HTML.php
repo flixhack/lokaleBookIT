@@ -4,8 +4,34 @@ include 'stylesheet.php';
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+    <link href="style2.css" rel="stylesheet" type="text/css">
+    <link href="/Programmering/loggedIn/style.css" rel="stylesheet" type="text/css">
+    <title>LokaleBooking - Aarhus Gymnasium</title>
+    <style>
 
+    a.format {
+        float: right;
+        color: #ffffff;
+        padding: 150px;
+}
+select {
+width: 100%;
+padding:3px 3px;
+border: 1px;
+border-radius: 0px;
+background-color: #ffffff;
+}
+    </style>
+  <!-- <link href="style2.css" rel="stylesheet"> -->
+  </head>
+  
 <div class="container-1">
   <div class="box-1">
 
