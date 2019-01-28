@@ -5,21 +5,9 @@ include 'header.php';
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <!---<head>
+  <head>
     <meta charset="utf-8">
-<<<<<<< HEAD
     <title>LokaleBooking - Aarhus Gymnasium</title>
-=======
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../../../favicon.ico">
-    <link href="CSS.css" rel="stylesheet" type="text/css">
-    <link href="/Programmering/loggedIn/style.css" rel="stylesheet" type="text/css">
-    <title>LokaleBooking - Aarhus Gymnasium</title>-->
-
-  <!-- <link href="style2.css" rel="stylesheet"> -->
->>>>>>> c8a5037d93cd20d86097504f74aca551550ef171
   </head>
 
 <div class="container-1">
