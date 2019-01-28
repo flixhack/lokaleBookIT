@@ -1,3 +1,8 @@
+<?php
+include 'header.php';
+include 'stylesheet.php';
+?>
+
 <!DOCTYPE html>
 <html>
 
