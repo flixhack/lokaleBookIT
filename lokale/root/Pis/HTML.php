@@ -11,7 +11,7 @@ include 'stylesheet.php';
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
-    <link href="style2.css" rel="stylesheet" type="text/css">
+    <link href="CSS.css" rel="stylesheet" type="text/css">
     <link href="/Programmering/loggedIn/style.css" rel="stylesheet" type="text/css">
     <title>LokaleBooking - Aarhus Gymnasium</title>
     <style>
@@ -31,7 +31,7 @@ background-color: #ffffff;
     </style>
   <!-- <link href="style2.css" rel="stylesheet"> -->
   </head>
-  
+
 <div class="container-1">
   <div class="box-1">
 
