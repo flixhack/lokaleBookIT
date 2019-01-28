@@ -8,7 +8,7 @@ include 'stylesheet.php';
     <title>Opret bruger</title>
   </head>
   <body>
-    <img src="../logo2.png" alt="Title" style="width:660px;height:88px;">
+    <img src="../logo2.png" alt="Title" style="position:absolute;width:660px;height:88px;">
     <!-- Creates all the labels for the register page -->
     <!--<p class="sansserif" style="position:absolute;TOP:240;left:527"> Fornavn</P>
     <p class="sansserif" style="position:absolute;TOP:265;left:517"> Efternavn</P>
@@ -19,9 +19,9 @@ include 'stylesheet.php';
       </body>
     <!-- Creates all the input fields for register page and tells the submit button to run 'CreateUserScript.php' -->
     <form name="form" action="Opret.php" method="POST">
-      <input type="text" style="TOP:250px;left:600px;WIDTH:200" placeholder="Navn" name="Navn" id="Navn"><br>
-      <input type="text" style="TOP:275px;left:600px;WIDTH:200" placeholder="Efternavn" name="Efternavn" id="Efternavn"><br>
-      <select style="TOP:300px;left:600px;WIDTH:200" name="klasse" id="klasse">
+      <input type="text" style="position:absolute;TOP:250px;left:600px;WIDTH:200" placeholder="Navn" name="Navn" id="Navn"><br>
+      <input type="text" style="position:absolute;TOP:275px;left:600px;WIDTH:200" placeholder="Efternavn" name="Efternavn" id="Efternavn"><br>
+      <select style="position:absolute;TOP:300px;left:600px;WIDTH:200" name="klasse" id="klasse">
       <option hidden="" value="Vælg klasse" >Vælg klasse</option>
       <option value="16xaa">16xaa</option>
       <option value="16xab">16xab</option>
@@ -50,10 +50,10 @@ include 'stylesheet.php';
       <option value="18xaq">18xaq</option>
       <option value="18xar">18xar</option>
       </select>
-      <input type="password" style="TOP:325px;left:600px;WIDTH:200" placeholder="Kodeord" name="pw" id="pw"><br>
-      <input type="password" style="TOP:350px;left:600px;WIDTH:200 " placeholder="Bekræft kodeord"name="cpw" id="cpw"><br>
+      <input type="password" style="position:absolute;TOP:325px;left:600px;WIDTH:200" placeholder="Kodeord" name="pw" id="pw"><br>
+      <input type="password" style="position:absolute;TOP:350px;left:600px;WIDTH:200 " placeholder="Bekræft kodeord"name="cpw" id="cpw"><br>
 
-      <input HREF="../Front.php" type="submit" value="Opret bruger" style="TOP:375px;left:600px;WIDTH:200;HEIGHT:20">
+      <input HREF="../Front.php" type="submit" value="Opret bruger" style="position:absolute;TOP:375px;left:600px;WIDTH:200;HEIGHT:20">
       </form>
 
 
