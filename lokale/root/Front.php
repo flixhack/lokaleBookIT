@@ -17,18 +17,7 @@ include 'stylesheet.php';
     <title>LokaleBooking - Aarhus Gymnasium</title>
     <style>
 
-    a.format {
-        float: right;
-        color: #ffffff;
-        padding: 150px;
-}
-select {
-width: 100%;
-padding:3px 3px;
-border: 1px;
-border-radius: 0px;
-background-color: #ffffff;
-}
+
     </style>
     <!-- <link href="style2.css" rel="stylesheet"> -->
   </head>
