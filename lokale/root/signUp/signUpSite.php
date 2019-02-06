@@ -8,7 +8,7 @@ include 'stylesheet.php';
     <title>Opret bruger</title>
   </head>
   <body>
-    <img src="../logo2.png" alt="Title" style="position:absolute;width:660px;height:88px;">
+    <p style="font-family:quantify"><font size="7" color="white">Lokalebooking</font></p>
     <!-- Creates all the labels for the register page -->
     <!--<p class="sansserif" style="position:absolute;TOP:240;left:527"> Fornavn</P>
     <p class="sansserif" style="position:absolute;TOP:265;left:517"> Efternavn</P>
