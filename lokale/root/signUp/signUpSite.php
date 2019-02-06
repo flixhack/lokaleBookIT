@@ -7,8 +7,12 @@ include 'stylesheet.php';
   <head>
     <title>Opret bruger</title>
   </head>
-  <body>
-    <p style="font-family:quantify"><font size="7" color="white">Lokalebooking</font></p>
+
+  <div class="container-1">
+    <div class="box-1">
+     <link href="style.css" rel="stylesheet" type="text/css">
+    <body>
+  <p style="font-family:quantify"><font size="7" color="white">Lokalebooking</font></p>
     <!-- Creates all the labels for the register page -->
     <!--<p class="sansserif" style="position:absolute;TOP:240;left:527"> Fornavn</P>
     <p class="sansserif" style="position:absolute;TOP:265;left:517"> Efternavn</P>
@@ -28,7 +32,7 @@ include 'stylesheet.php';
   <form name="form" action="Opret.php" method="POST">
       <input type="text" placeholder="Navn" name="Navn" id="Navn"><br>
       <input type="text" placeholder="Efternavn" name="Efternavn" id="Efternavn"><br>
-      <select name="klasse" id="klasse">
+      <select name="klasse" id="klasse" style="width:173px">
       <option hidden="">Vælg klasse</option>
       <option value="16xaa">16xaa</option>
       <option value="16xab">16xab</option>
