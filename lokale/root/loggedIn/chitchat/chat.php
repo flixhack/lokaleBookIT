@@ -25,5 +25,10 @@ include '../HTMLIncluder.php';
 
      </select>
 
+     <form name="form1">
+     Din besked: <br />
+     <textarea id='output' name="msg" style="color: black; background-color: #ffffff" rows=5 cols=30></textarea><br />
+     <input id="Send" type="button" class="button" color="" value="Send" onclick="submitChat();" /> <!--A button which runs the submitChat function when pressed. This function uses  XMLHttpRequest (XHR) objects to interact with our server, so we can retrieve data from a URL without having to do a full page refres -->
+     </form>
    </body>
 </html>

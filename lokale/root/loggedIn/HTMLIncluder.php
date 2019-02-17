@@ -51,9 +51,9 @@ input[type=text] {
 }
 
 .icon-bar a:hover {
-    background-color: #58bad8;
+    background-color: #4caecd;
 }
 .active {
-    background-color: #58bad8;
+    background-color: #4caecd;
 }
 </style>

@@ -6,17 +6,16 @@ include '../header.php';
 
   <head>
     <title>Opret bruger</title>
+    <link href="box.css" rel="stylesheet" type="text/css">
   </head>
 
   <div class="container-1">
     <div class="box-1">
-      <link href="style.css" rel="stylesheet" type="text/css">
 
       <body>
-        <p style="font-family:quantify">
-          <font size="7" color="white">Lokalebooking</font>
-        </p>
-
+        <a href="/Programmering/Front.php">
+        <img src="../logo2.png" alt="Title" style="width:484px;height:66px;">
+        </a>
       </body>
     </div>
   </div>
@@ -29,7 +28,9 @@ include '../header.php';
       <form name="form" action="Opret.php" method="POST">
         <input type="text" placeholder="Navn" name="Navn" id="Navn"><br>
         <input type="text" placeholder="Efternavn" name="Efternavn" id="Efternavn"><br>
-        <select name="klasse" id="klasse" style="width:173px">
+        <input type="password" placeholder="Kodeord" name="pw" id="pw"><br>
+        <input type="password" placeholder="Bekræft kodeord" name="cpw" id="cpw"><br>
+        <select name="klasse" id="klasse">
       <option hidden="">Vælg klasse</option>
       <option value="16xaa">16xaa</option>
       <option value="16xab">16xab</option>
@@ -58,10 +59,7 @@ include '../header.php';
       <option value="18xaq">18xaq</option>
       <option value="18xar">18xar</option>
       </select>
-        <input type="password" placeholder="Kodeord" name="pw" id="pw"><br>
-        <input type="password" placeholder="Bekræft kodeord" name="cpw" id="cpw"><br>
-
-        <input HREF="../Front.php" type="submit" value="Opret bruger">
+        <input HREF="../Front.php" type="submit" value="&thinsp;Opret bruger&thinsp;">
       </form>
     </div>
     <div class="box-4">

@@ -12,9 +12,9 @@ include 'header.php';
 <div class="container-1">
   <div class="box-1">
 
-    <body class="text-right">
+    <body class="text-right" link="#ffffff" vlink="#ffffff" alink="#ffffff">
       <link href="CSS.css" rel="stylesheet" type="text/css">
-      <p style="font-family:quantify"><font size="7" color="white">Lokalebooking</font></p>
+      <img src="logo2.png" alt="Title" style="width:484px;height:66px;">
       <form name="login" action="login.php" method="POST">
         <form class="form-signin text-right">
         </div>
@@ -29,7 +29,7 @@ include 'header.php';
             <input type="password" name="Password" id="Password" style="position:sticky;" class="form-control" placeholder="Kodeord" required autofocus>
           </div>
           <div class="Opret">
-            <A HREF="signUp/signUpSite.php" class="format text-text">Opret bruger</A>
+            <A HREF="signUp/signUpSite.php" class="format text-text" color=white>Opret bruger</A>
           </div>
         </div>
         <div class="box-5">

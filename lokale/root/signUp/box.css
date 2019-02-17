@@ -19,9 +19,9 @@ p.sansserif {
 }
 
 .container-1 div {
-  border: 1px #ccc solid;
+  border: 0px #ccc solid;
   padding: 10px;
-  height: 100px;
+  height: 180px;
 }
 
 .box-1 {
@@ -30,9 +30,10 @@ p.sansserif {
 }
 
 .container-2 div {
-  border: 1px #ccc solid;
+  border: 0px #ccc solid;
   padding: 10px;
   height:200px;
+  padding:50px;
   flex-direction: column;
 }
 

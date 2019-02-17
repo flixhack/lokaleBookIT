@@ -25,10 +25,10 @@ if ($klasse != "" && $Navn != "" && $Efternavn != "" && $preHashPass != "" && $p
       echo "Error: could not connect, try again later: " . mysqli_error($conn);
     }
   } else {
-    print '<script type="text/javascript">alert("Passwords are not identical"); window.location = "signUpSite.php"; </script>';
+    print '<script type="text/javascript">alert("Kodeordene er ikke identiske"); window.location = "signUpSite.php"; </script>';
   }
 } else {
-  print '<script type="text/javascript">alert("All fields are MANDATORY!!!"); window.location = "signUpSite.php"; </script>';
+  print '<script type="text/javascript">alert("Alle felter skal udfyldes"); window.location = "signUpSite.php"; </script>';
 }
 
 
