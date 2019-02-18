@@ -12,7 +12,7 @@ if(isset($_POST['update']))
 // $tretten = $_POST['13251425id'];
 // $fjorten = $_POST['14301530id'];
 
-$Lokalenr =$_POST['namn'];
+$Lokalenr = $_POST['lokalenrid'];
 $otte1 = $_POST['08150915id'];
 $ni1 = $_POST['09351035id'];
 $ti1 = $_POST['10451145id'];
@@ -25,13 +25,12 @@ $fjorten1 = $_POST['14301530id'];
 $sql = "UPDATE Lokale SET otte = '$otte1' WHERE LokaleNr = '$Lokale' ";
 
 // , tisdag = '{$tisdag1}', onsdag = '{$onsdag1}', torsdag = '{$torsdag1}', fredag = '{$fredag1}'
-if(mysqli_query($conn, $sql) )
-{
+if(mysqli_query($conn, $sql) ) {
   echo "Updated data successfully\n";
 } else {
-die('Could not update data: ' . mysqli_error($conn));
+    die('Could not update data: ' . mysqli_error($conn));
 
-}
+  }
 }
 // }
 // mysqli_close($conn);

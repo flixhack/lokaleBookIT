@@ -84,6 +84,7 @@
   </td>
   </tr>
   </table>
+  <input type="text" name="lokalenrid" id="lokalenrid" value="lokalenrid">
   </form>
 
   </body>
