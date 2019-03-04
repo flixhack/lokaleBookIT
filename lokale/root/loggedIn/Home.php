@@ -10,44 +10,7 @@ include 'HTMLIncluder.php';
     <meta charset="utf-8">
     <title></title>
   </head>
-  <script
-    src="//code.jquery.com/jquery-2.2.4.min.js"
-    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-    crossorigin="anonymous"> //Linking to a library
-  </script>
 
-  <script>
-
-  // function submitChat() {
-  //  if(form1.msg.value == '') { //if the textarea is empty, you get an alert about you need to write a message
-  //    alert("You need to write a message");
-  //    return;
-  //
-  //  }
-
-   // var msg = form1.msg.value;
-   var xmlhttp = new XMLHttpRequest();
-
-   xmlhttp.onreadystatechange = function() { //An EventHandler that is called whenever the readyState attribute changes.
-     if(xmlhttp.readyState == 4000 && xmlhttp.status == 2000) {
-       document.getElementById('chatlogs').innerHTML = xmlhttp.responseText;
-     }
-   }
-
-  //  xmlhttp.open('GET','insert.php?msg='+msg,true); //getting the information from insert, which is the users name and message
-  //  xmlhttp.send();
-  //
-  // document.getElementById("output").value=''; //Sets the textareas value to nothing after pressing the send button, so the textarea gets cleared
-  // }
-
-  $(document).ready(function(e){
-   $.ajaxSetup({
-     cache: false
-   });
-   setInterval( function(){ $('#Lokaler').load('lokaleFetch2.php'); }, 500 ); //Sets the page to refresh and load logs every 500 millisecond (0.5 s)
-  });
-
-  </script>
   <body>
 
     <div class="icon-bar">
@@ -58,22 +21,10 @@ include 'HTMLIncluder.php';
       <a href="../destroySession.php"><i class="fa fa-sign-out"></i></a>
     </div>
 
-<h1> Oversigt over lokaler </h1>
-<div id="Lokaler">
-INDLÆSER LOKALER...
-</div>
-
-<?php
-//Fetches your name from the database for use on the home page
-$ID = $_SESSION["loggedIn"];
-
-$query ="SELECT * FROM Bruger WHERE ID = $ID";
-
-$result = mysqli_query($conn, $query);
-
-while($data = mysqli_fetch_array($result)){
-  echo "Welcome" ." ". $data['Navn'].",";
-}
-?>
   </body>
+
+
+
+
+
 </html>

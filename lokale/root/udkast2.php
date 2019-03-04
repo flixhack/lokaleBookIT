@@ -25,6 +25,9 @@
 
 
   <form name="form" method="post" action="udkastUpdate.php">
+    <input type="text" name="lokalenrid" id="lokalenrid" value="lokalenrid">
+    <input type="text" name="tilgængelig" id="tilgængelig" value="tilgængelig">
+    <input name="update" type="submit" id="update" value="Reserver">
   <table width="400" border="0" cellspacing="1" cellpadding="2">
   <tr>
 
@@ -80,11 +83,11 @@
   <tr>
   <td width="100"> </td>
   <td>
-  <input name="update" type="submit" id="update" value="Reserver">
+
   </td>
   </tr>
   </table>
-  <input type="text" name="lokalenrid" id="lokalenrid" value="lokalenrid">
+
   </form>
 
   </body>
